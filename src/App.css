@@ -1,0 +1,64 @@
+/* GLOBALS */
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+header {
+  background-color: black;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* MAIN */
+
+main {
+  width: 1024px;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+article {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.bottom-article {
+  display: flex;
+  gap: 5px;
+}
+.red {
+  border: 10px solid red;
+}
+.green {
+  border: 10px solid green;
+}
+.yellow {
+  border: 10px solid yellow;
+}
+.blue {
+  border: 10px solid cyan;
+}
+.pink {
+  border: 10px solid pink;
+}
+
+footer {
+  background-color: lightgray;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
