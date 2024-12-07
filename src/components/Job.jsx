@@ -12,7 +12,7 @@ const Job = (props) => {
     <div className={`job ${props.className}`}>
       <h2>{props.title ? props.title : "Pas de titre disponible"}</h2>
       {/* <p>{`{`}</p> */}
-      <p>{object.name}</p>
+      <p>{object && object.name}</p>
       <p>
         {props.contractType} - {props.country} - {props.city}
       </p>
